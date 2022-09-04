@@ -1,0 +1,4 @@
+1. Add wining amount.
+2. Support for real time game.
+3. Betting.
+4. Betting on blockchain.

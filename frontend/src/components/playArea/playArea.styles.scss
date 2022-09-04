@@ -1,0 +1,63 @@
+.playArea {
+    height: 65vh;
+    width: 65vw;
+
+    position: relative;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(200px);
+    filter: blur();
+    box-shadow: 0 3rem 5rem rgb(0 0 0 / 25%);
+    border-radius: calc(0.2vh + 0.2vw);
+    overflow: hidden;
+    display: flex;
+
+    button {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+        color: #444;
+        background: none;
+        border: none;
+        font-family: inherit;
+        font-size: calc(0.6vh + 0.6vw);
+        text-transform: uppercase;
+        cursor: pointer;
+        font-weight: 400;
+        transition: all 0.2s;
+        background-color: rgba(255, 255, 255, 0.6);
+        backdrop-filter: blur(10px);
+        padding: 0.7rem 2.5rem;
+        border-radius: 50rem;
+        box-shadow: 0 1.75rem 3.5rem rgb(0 0 0 / 10%);
+
+        &:hover {
+            background-color: white;
+        }
+    }
+
+    .newGame {
+        top: 20%;
+    }
+
+    .rollDice {
+        top: 70%;
+    }
+
+    .hold {
+        top: 80%;
+    }
+
+    img {
+        height: calc(5vh + 5vw);
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

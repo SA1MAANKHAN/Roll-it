@@ -1,0 +1,39 @@
+.subPlayArea {
+    height: 60vh;
+    width: 30vw;
+
+    background-color: rgba(255, 255, 255, 0.35);
+
+    border-radius: calc(0.2vh + 0.2vw);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    .playerInfo {
+        text-align: center;
+
+        color: rgb(65, 0, 105);
+
+        .score {
+            font-size: calc(2vh + 2vw);
+            font-weight: 300;
+        }
+    }
+
+    .currentScoreContainer {
+        background-color: #c7365f;
+        opacity: 0.8;
+        border-radius: calc(0.5vh + 0.5vw);
+        color: #fff;
+        width: 40%;
+        padding: calc(1vh + 1vw);
+        text-align: center;
+        transition: all 0.75s;
+    }
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.7);
+}
